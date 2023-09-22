@@ -1,0 +1,89 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #f21c1c;
+}
+
+#unic{
+    font-size: large;
+    color:sblue;
+}
+/* Селектор по индефикатору/*
+
+ul li{
+    font-weight; 800;
+    list-style-type: circle;
+}
+/* Селектор потомков*/
+
+nav > ol {
+    /* background-color: aqua; */
+    border-radius: 10px;
+    color: rgb(255, 165, 127);
+    width: 300px;
+}
+
+nav:hover{
+    background-color: aqua;
+    width: 400px;
+}
+
+a{
+    color: blueviolet;
+}
+
+a :hover{
+    color: #f21c1c;
+}
+/* Селектор псевдоклассов*/
+
+li:first-child {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+h2 + p{
+    font-weight: bold;
+    color: blue;
+    font-size: larger;
+}
+
+div{
+    
+    
+    color: rgb(162, 234, 210);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.kubick{
+    width: 100px;
+    height: 100px;
+    background-color: #f21ca4;
+    color: blue;
+    border-radius: 5px;
+    text-align: centers;
+}
+
+.corzina{
+    width: 250px;
+    height: 250px;
+    background-color: #4e1cf2;
+    border-radius: 20px;
+    margin-top: 4%;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+.content-container{
+    background-color: #f2831c;
+    border-radius: 2%;
+    padding: 5% 1%;
+    margin-top: 3%;
+}
+
+.section{
+    border: solid 1px #f21c1c;
+    border-radius: 5px;
+    margin-top: 1%;
+    padding-left: 10%;
+}
